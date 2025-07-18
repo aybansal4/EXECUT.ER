@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <title>EXECUT.ER</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+  <body>
+    <div class="container">
+      <h1>EXECUT.ER</h1>
+      <p>Execute ELF Executables with a 10 minute timeout</p>
+      <div class="upload-section">
+        <input type="file" id="elfFile">
+        <button id="runButton" disabled>Run</button>
+      </div>
+      <div class="output-section">
+        <h3>Output:</h3>
+        <pre id="output"></pre>
+      </div>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
